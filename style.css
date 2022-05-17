@@ -421,6 +421,13 @@ body.menu-expanded button path {
   gap: 3.2rem;
 }
 
+#services .cards img{
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+
+
 #services .card {
   padding: 2.4rem;
   text-align: left;
@@ -841,11 +848,18 @@ section header h2 {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 4rem;
+    
   }
 
   #services .card {
     width: 30%;
     flex-grow: 1;
+  }
+
+  #services .cards img {
+    margin-top: 5px;
+    height: 18rem;
+    border-radius: 5px;
   }
 /* ========== ABOUT ======*/
 #about .wrapper {
@@ -907,6 +921,7 @@ section header h2 {
    footer p {
      margin-bottom: 0;
    }
+
 
 
 }
