@@ -854,12 +854,18 @@ section header h2 {
   #services .card {
     width: 30%;
     flex-grow: 1;
+    overflow: hidden;
   }
 
   #services .cards img {
     margin-top: 5px;
     height: 18rem;
     border-radius: 5px;
+    transition: transform .5s ease;
+  }
+
+  #services .cards img:hover {
+    transform: scale(1.1);
   }
 /* ========== ABOUT ======*/
 #about .wrapper {
@@ -921,7 +927,6 @@ section header h2 {
    footer p {
      margin-bottom: 0;
    }
-
 
 
 }
